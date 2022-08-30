@@ -9,6 +9,9 @@ import UIKit
 
 class GeneralView: UIView {
 
+    var yoo: String = "this is testing"
+    
+    
     @IBInspectable var roundedCornersValue : CGFloat = 0.0 {
         didSet {
             setupLayout()
@@ -41,7 +44,6 @@ class GeneralView: UIView {
     func setupLayout() {
         self.layer.borderWidth = borderWidthValue
         self.layer.borderColor = borderColor.cgColor
-        self.layer.shadowOpacity = shadow
     }
 
 }
