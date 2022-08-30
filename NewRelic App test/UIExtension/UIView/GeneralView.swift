@@ -26,7 +26,12 @@ class GeneralView: UIView {
             setupLayout()
         }
     }
-    
+    @IBInspectable var shadow : CGFloat = 0.0 {
+        didSet{
+            setupLayout()
+        }
+    }
+
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -36,6 +41,7 @@ class GeneralView: UIView {
     func setupLayout() {
         self.layer.borderWidth = borderWidthValue
         self.layer.borderColor = borderColor.cgColor
+        self.layer.shadowOpacity = shadow
     }
 
 }
