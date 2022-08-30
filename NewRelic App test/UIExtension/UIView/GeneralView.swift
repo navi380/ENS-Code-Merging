@@ -41,7 +41,6 @@ class GeneralView: UIView {
     func setupLayout() {
         self.layer.borderWidth = borderWidthValue
         self.layer.borderColor = borderColor.cgColor
-        self.layer.shadowOpacity = shadow
     }
 
 }
