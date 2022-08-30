@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         print("Hello world")
         print("this is naveed.")
     }
+    
+    func something(){
+        print("yoo")
+    }
 
 
 }
