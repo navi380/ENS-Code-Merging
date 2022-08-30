@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88788CE728BE10140035CB0F /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88788CE628BE10140035CB0F /* GeneralView.swift */; };
 		9B66461F28B6457200E6692B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66461E28B6457200E6692B /* AppDelegate.swift */; };
 		9B66462128B6457200E6692B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66462028B6457200E6692B /* SceneDelegate.swift */; };
 		9B66462328B6457200E6692B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66462228B6457200E6692B /* ViewController.swift */; };
 		9B66462628B6457200E6692B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462428B6457200E6692B /* Main.storyboard */; };
 		9B66462828B6457400E6692B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462728B6457400E6692B /* Assets.xcassets */; };
 		9B66462B28B6457500E6692B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462928B6457500E6692B /* LaunchScreen.storyboard */; };
-		9BDA1C2F28BE101D006D2631 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA1C2E28BE101D006D2631 /* Test.swift */; };
+		9BDA1C3128BE1F81006D2631 /* ticketSolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA1C3028BE1F81006D2631 /* ticketSolve.swift */; };
 		A84C42AE8F259E251C1FF5BD /* Pods_NewRelic_App_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAD1299FC89653AF7697D10 /* Pods_NewRelic_App_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86E8763B0D1A16F99A72955A /* Pods-NewRelic App test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelic App test.release.xcconfig"; path = "Target Support Files/Pods-NewRelic App test/Pods-NewRelic App test.release.xcconfig"; sourceTree = "<group>"; };
+		88788CE628BE10140035CB0F /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
 		8A145AF9CA01FCE8E36CA7FC /* Pods-NewRelic App test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewRelic App test.debug.xcconfig"; path = "Target Support Files/Pods-NewRelic App test/Pods-NewRelic App test.debug.xcconfig"; sourceTree = "<group>"; };
 		9B66461B28B6457200E6692B /* NewRelic App test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewRelic App test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B66461E28B6457200E6692B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +30,7 @@
 		9B66462728B6457400E6692B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B66462A28B6457500E6692B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B66462C28B6457500E6692B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BDA1C2E28BE101D006D2631 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9BDA1C3028BE1F81006D2631 /* ticketSolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketSolve.swift; sourceTree = "<group>"; };
 		AAAD1299FC89653AF7697D10 /* Pods_NewRelic_App_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewRelic_App_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +55,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		88788CE228BE0F450035CB0F /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				88788CE328BE0F5D0035CB0F /* UIView */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		88788CE328BE0F5D0035CB0F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				88788CE628BE10140035CB0F /* GeneralView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		9B66461228B6457200E6692B = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +92,7 @@
 		9B66461D28B6457200E6692B /* NewRelic App test */ = {
 			isa = PBXGroup;
 			children = (
+				88788CE228BE0F450035CB0F /* UIExtension */,
 				9B66461E28B6457200E6692B /* AppDelegate.swift */,
 				9B66462028B6457200E6692B /* SceneDelegate.swift */,
 				9B66462228B6457200E6692B /* ViewController.swift */,
@@ -81,7 +100,7 @@
 				9B66462728B6457400E6692B /* Assets.xcassets */,
 				9B66462928B6457500E6692B /* LaunchScreen.storyboard */,
 				9B66462C28B6457500E6692B /* Info.plist */,
-				9BDA1C2E28BE101D006D2631 /* Test.swift */,
+				9BDA1C3028BE1F81006D2631 /* ticketSolve.swift */,
 			);
 			path = "NewRelic App test";
 			sourceTree = "<group>";
@@ -210,7 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B66462328B6457200E6692B /* ViewController.swift in Sources */,
-				9BDA1C2F28BE101D006D2631 /* Test.swift in Sources */,
+				9BDA1C3128BE1F81006D2631 /* ticketSolve.swift in Sources */,
+				88788CE728BE10140035CB0F /* GeneralView.swift in Sources */,
 				9B66461F28B6457200E6692B /* AppDelegate.swift in Sources */,
 				9B66462128B6457200E6692B /* SceneDelegate.swift in Sources */,
 			);
