@@ -19,7 +19,8 @@ class GeneralView: UIView {
             setupLayout()
         }
     }
-    @IBInspectable var borderColor : UIColor = .afGunmetal
+    
+    @IBInspectable var borderColor : UIColor = .blue
         {
         didSet{
             setupLayout()
@@ -38,7 +39,6 @@ class GeneralView: UIView {
     }
     
     func setupLayout() {
-        self.roundAllCorners(radius: roundedCornersValue)
         self.layer.borderWidth = borderWidthValue
         self.layer.borderColor = borderColor.cgColor
         self.layer.shadowOpacity = shadow
