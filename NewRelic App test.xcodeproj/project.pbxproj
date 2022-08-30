@@ -13,6 +13,7 @@
 		9B66462628B6457200E6692B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462428B6457200E6692B /* Main.storyboard */; };
 		9B66462828B6457400E6692B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462728B6457400E6692B /* Assets.xcassets */; };
 		9B66462B28B6457500E6692B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B66462928B6457500E6692B /* LaunchScreen.storyboard */; };
+		9BDA1C2F28BE101D006D2631 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA1C2E28BE101D006D2631 /* Test.swift */; };
 		A84C42AE8F259E251C1FF5BD /* Pods_NewRelic_App_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAD1299FC89653AF7697D10 /* Pods_NewRelic_App_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		9B66462728B6457400E6692B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B66462A28B6457500E6692B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B66462C28B6457500E6692B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDA1C2E28BE101D006D2631 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AAAD1299FC89653AF7697D10 /* Pods_NewRelic_App_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewRelic_App_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				8A145AF9CA01FCE8E36CA7FC /* Pods-NewRelic App test.debug.xcconfig */,
 				86E8763B0D1A16F99A72955A /* Pods-NewRelic App test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				9B66462728B6457400E6692B /* Assets.xcassets */,
 				9B66462928B6457500E6692B /* LaunchScreen.storyboard */,
 				9B66462C28B6457500E6692B /* Info.plist */,
+				9BDA1C2E28BE101D006D2631 /* Test.swift */,
 			);
 			path = "NewRelic App test";
 			sourceTree = "<group>";
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B66462328B6457200E6692B /* ViewController.swift in Sources */,
+				9BDA1C2F28BE101D006D2631 /* Test.swift in Sources */,
 				9B66461F28B6457200E6692B /* AppDelegate.swift in Sources */,
 				9B66462128B6457200E6692B /* SceneDelegate.swift in Sources */,
 			);
