@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         
         print("this is hello.")
     }
+    
+    func something(){
+        print("yoo")
+    }
 
 
 }
