@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-NewRelic App test/Pods-NewRelic App test-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NewRelicAgent/NewRelic.framework/NewRelic

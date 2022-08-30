@@ -1,0 +1,16 @@
+PODS:
+  - NewRelicAgent (7.3.7)
+
+DEPENDENCIES:
+  - NewRelicAgent
+
+SPEC REPOS:
+  trunk:
+    - NewRelicAgent
+
+SPEC CHECKSUMS:
+  NewRelicAgent: 13afbb9545e287293cf7514d344be4ebc9413c6e
+
+PODFILE CHECKSUM: 60b163bbc77ef93bb02723cc685ea1318bf045bc
+
+COCOAPODS: 1.11.2
